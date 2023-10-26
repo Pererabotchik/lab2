@@ -1,0 +1,21 @@
+﻿<Window x:Class="lab2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Магазин" HorizontalAlignment="Center" Margin="0,26,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <Label Content="Ручка шарикова" HorizontalAlignment="Left" Margin="51,188,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.431,-0.633" FontSize="22"/>
+        <Label Content="Фломастери" HorizontalAlignment="Left" Margin="51,285,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.431,-0.633" FontSize="22"/>
+        <TextBox x:Name="pen" HorizontalAlignment="Left" Margin="252,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="127" Height="28"/>
+        <TextBox x:Name="felt_pen" HorizontalAlignment="Left" Margin="252,296,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="127" Height="28"/>
+        <Label Content="Вартість" HorizontalAlignment="Left" Margin="595,146,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.431,-0.633" FontSize="22"/>
+        <TextBox x:Name="result_pen" HorizontalAlignment="Left" Margin="558,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="196" Height="28"/>
+        <Button Content="Розрахувати" HorizontalAlignment="Center" Margin="0,361,0,0" VerticalAlignment="Top" Width="328" Height="49" FontSize="22" Click="Button_Click"/>
+        <TextBox x:Name="result_feltpen" HorizontalAlignment="Left" Margin="558,296,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="196" Height="28"/>
+
+    </Grid>
+</Window>
